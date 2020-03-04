@@ -1,0 +1,18 @@
+{
+    "name": "customframework/customframework",
+    "description": "A simple framework made from zero in PHP using OOP by Evandro Morini",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Evandro Morini",
+            "email": "evandro.morini@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Framework\\Config\\": "Config/",
+            "Framework\\Controller\\": "Controller/",
+            "Framework\\Model\\": "Model/"
+        }
+    }
+}
